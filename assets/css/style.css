@@ -1,0 +1,133 @@
+/* Generell */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../fonts/inter/Inter-VariableFont_slntwght.ttf");
+}
+
+html {
+    font-size: 10px;
+}
+
+/* header nav */
+
+#nav {
+    display: flex;
+}
+
+#nav p {
+    width: 100vh;
+    justify-self: center;
+    font-size: 3rem;
+    color: blue;
+    padding: 15px;
+    font-family: "inter";
+}
+
+#nav div {
+    width: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    gap: 3%;
+}
+
+#nav div a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "inter";
+}
+
+#nav div a:nth-of-type(5) {
+    border: 2px solid blue;
+    padding: 5px 40px;
+    background-color: blue;
+    border-radius: 10% / 50%;
+    color: white;
+}
+
+#welcome {
+    display: flex;
+    margin-top: 10vh;
+}
+
+#welcome div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 8vw;
+}
+
+#welcome div p:nth-of-type(1) {
+    font-size: 2rem;
+    color: blue;
+}
+
+#welcome div .willkommen::before {
+    content: "----------->";
+}
+
+#welcome div h1 {
+    font-size: 5rem;
+    width: 60%;
+}
+
+#welcome div p:nth-of-type(2) {
+    font-size: 2rem;
+    margin-top: 3vh;
+}
+
+#welcome div a {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: blue;
+    padding: 15px 35px;
+    border-radius: 10% / 50%;
+    /* display: inline-block; */
+    margin: 5vh auto 0 0;
+    font-size: 2rem;
+    font-family: 'Inter';
+}
+
+#welcome img {
+    margin: 0 auto;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .8);
+}
+
+#over_me {
+    display: flex;
+    margin-top: 15vh;
+}
+
+#over_me div h2 {
+    font-size: 10rem;
+    font-family: "inter";
+    margin: 0 auto;
+    margin-left: 7vw;
+}
+
+#over_me div h2:nth-of-type(2) {
+    margin-left: 15vw;
+}
+
+
+#over_me article {
+    margin: 0 auto;
+    font-size: 3rem;
+    width: 60%;
+}
+
+#over_me article div {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5vh;
+    gap: 5% ;
+}
